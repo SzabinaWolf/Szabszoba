@@ -1,0 +1,111 @@
+{
+  "kategoriak": [
+    {
+      "id": 1,
+      "megnevezes": "dráma"
+    },
+    {
+      "id": 2,
+      "megnevezes": "thriller"
+    },
+    {
+      "id": 3,
+      "megnevezes": "krimi"
+    },
+    {
+      "id": 4,
+      "megnevezes": "romantikus"
+    },
+    {
+      "id": 5,
+      "megnevezes": "horror"
+    }
+  ],
+  "foglalasok": [
+    {
+      "id": 1,
+      "nev": "Józsa Attila",
+      "iranyitoszam": 1095,
+      "cim": "Budapest, Berzenczey utca 2.",
+      "datum": "2023.09.20.",
+      "letszam": 6
+    },
+    {
+      "id": 2,
+      "nev": "Kovács Kinga",
+      "iranyitoszam": 1067,
+      "cim": "Budapest, Kinizsi utca 18.",
+      "datum": "2023.09.21.",
+      "letszam": 4
+    },
+    {
+      "nev": "",
+      "iranyitoszam": "",
+      "cim": "",
+      "datum": "2023-09-20T12:28:36.868Z",
+      "letszam": "",
+      "kategoria": "",
+      "id": 3
+    },
+    {
+      "nev": "",
+      "iranyitoszam": "",
+      "cim": "",
+      "datum": "2023-09-20T12:28:47.421Z",
+      "letszam": "",
+      "kategoria": "",
+      "id": 4
+    },
+    {
+      "nev": "Kiss Jenő",
+      "iranyitoszam": "1052",
+      "cim": "Budapest, Balaton u. 23.",
+      "datum": "2023-09-20T12:29:11.641Z",
+      "letszam": 3,
+      "kategoria": {
+        "id": 3,
+        "megnevezes": "krimi"
+      },
+      "id": 5
+    },
+    {
+      "nev": "Pék Jolán",
+      "iranyitoszam": "1046",
+      "cim": "Budapest, Zsemle tér 4.",
+      "datum": "2023-09-20T13:23:15.056Z",
+      "letszam": 5,
+      "kategoria": {
+        "id": 2,
+        "megnevezes": "thriller"
+      },
+      "id": 6
+    },
+    {
+      "nev": "",
+      "iranyitoszam": "",
+      "cim": "",
+      "datum": "2023-09-20T14:03:01.730Z",
+      "letszam": "",
+      "kategoria": 1,
+      "id": 7
+    },
+    {
+      "nev": "",
+      "iranyitoszam": "",
+      "cim": "",
+      "datum": "2023-09-20T14:03:58.759Z",
+      "letszam": "",
+      "kategoria": "thriller",
+      "id": 8
+    },
+    {
+      "nev": "Kiss Jenő",
+      "iranyitoszam": "1058",
+      "cim": "Budapest, Peca utca 3.",
+      "datum": "2023-09-20T14:07:58.007Z",
+      "letszam": 7,
+      "kategoria": "krimi",
+      "id": 9
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+<div class="container">
+    <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+        <!--- Note that these columns can be defined in any order.
+          The actual rendered columns are set as a property on the row definition" -->
+
+        <!-- id Column -->
+        <ng-container matColumnDef="id">
+            <th mat-header-cell *matHeaderCellDef> ID </th>
+            <td mat-cell *matCellDef="let foglalas"> {{foglalas.id}} </td>
+        </ng-container>
+
+        <!-- név Column -->
+        <ng-container matColumnDef="nev">
+            <th mat-header-cell *matHeaderCellDef> Név </th>
+            <td mat-cell *matCellDef="let foglalas"> {{foglalas.nev}} </td>
+        </ng-container>
+
+        <!-- ir.szam Column -->
+        <ng-container matColumnDef="iranyitoszam">
+            <th mat-header-cell *matHeaderCellDef> Irányítószám </th>
+            <td mat-cell *matCellDef="let foglalas"> {{foglalas.iranyitoszam}} </td>
+        </ng-container>
+
+          <!-- cím Column -->
+          <ng-container matColumnDef="cim">
+            <th mat-header-cell *matHeaderCellDef> Cím </th>
+            <td mat-cell *matCellDef="let foglalas"> {{foglalas.cim}} </td>
+        </ng-container>
+
+        <!-- dátum Column -->
+        <ng-container matColumnDef="datum">
+            <th mat-header-cell *matHeaderCellDef> dátum </th>
+            <td mat-cell *matCellDef="let foglalas"> {{foglalas.datum | date}} </td>
+        </ng-container>
+
+        <!-- létszám Column -->
+        <ng-container matColumnDef="letszam">
+            <th mat-header-cell *matHeaderCellDef> Létszám </th>
+            <td mat-cell *matCellDef="let foglalas"> {{foglalas.letszam}} </td>
+        </ng-container>
+
+        <!-- kategória Column -->
+        <ng-container matColumnDef="kategoria">
+            <th mat-header-cell *matHeaderCellDef> Kategória </th>
+            <td mat-cell *matCellDef="let foglalas" >{{foglalas.kategoria}}   </td>
+        </ng-container>
+
+      
+
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+
+    <div>
+        <button class="btn btn-primary" routerLink="/new-game">Új foglalás felvétele</button>
+    </div>
+</div>
